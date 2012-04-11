@@ -1,0 +1,12 @@
+backup
+binary
+tmpage
+git*
+.gitconfig
+.ssh
+usr
+.viminfo
+.bash*
+.less*
+.tramp*
+*~
