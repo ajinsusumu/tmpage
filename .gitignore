@@ -1,3 +1,6 @@
+.Xauthority
+.gconfd
+.bashrc
 .emacs.d
 backup
 binary
