@@ -2,9 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>太平洋・平和国際日本語演説会</title>
-    <script type="text/javascript" src="http://site.decomoji.jp/js/J7PYU.js" charset="utf-8"></script>
-    <script type="text/javascript">try{DecoMoji.load()}catch(e){}</script>
+    <title>太平洋国際日本語演説会</title>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -26,65 +24,68 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    <link href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.css" rel="stylesheet">
-    <link href="http://twitter.github.com/bootstrap/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <!-- <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet"> -->
     <link href="./local.css" rel="stylesheet">
   </head>
   <body>
 
-    <!-- Topbar
-    ================================================== -->
-    <div class="topbar" data-scrollspy="scrollspy" >
-      <div class="topbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <li class="active"><a href="#">ホーム</a></li>
-            <li><a href="#about">演説会について</a></li>
-            <li><a href="#event">予定表</a></li>
-            <li><a href="#program">プログラム</a></li>
-            <li><a href="#access">アクセス</a></li>
-            <li><a href="#gallery">フォトギャラリー</a></li>
-            <li><a href="#fb-page">フェースブック・ページ</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
-            <li><a href="#bbs">掲示板</a></li>
-          </ul>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Pacific</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">ホーム</a></li>
+                <li><a href="#about">演説会について</a></li>
+                <li><a href="#event">予定表</a></li>
+                <li><a href="#program">過去の行事記録</a></li>
+                <li><a href="#access">アクセス</a></li>
+                <li><a href="#gallery">フォトギャラリー</a></li>
+                <li><a href="#fb-page">フェースブック・ページ</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="#bbs">掲示板</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-
     <!-- Masthead (blueprinty thing)
     ================================================== -->
-    <header class="jumbotron masthead" id="overview">
-      <div class="inner">
-        <div class="container">
-          <h1>太平洋・平和国際日本語演説会</h1>
-          <p class="lead">
-            <p>
-	      生涯の友達、生涯の学習。<br />
-              あきず、あせらず、あきらめず。</p>
-          </p>
-
-	  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-size="large">Tweet</a>
-	  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-	  <!-- Place this tag where you want the +1 button to render -->
-	  <g:plusone></g:plusone>
-
-	  <!-- Place this render call where appropriate -->
-	  <script type="text/javascript">
-	    window.___gcfg = {lang: 'ja'};
-
-	    (function() {
-	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	    po.src = 'https://apis.google.com/js/plusone.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	    })();
-	  </script>
-        </div><!-- /container -->
+    <div class="jumbotron masthead">
+      <div class="container">
+        <h1>太平洋国際日本語演説会</h1>
+        <p>
+	  生涯の友達、生涯の学習。<br />
+          あきず、あせらず、あきらめず。
+        </p>
       </div>
-    </header>
+    </div>
+    <div class="bs-docs-social">
+      <div class="container">
+        <ul class="bs-docs-social-buttons">
+          <li class="tweet-btn">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.toastmasters.org.tw/clubs/pacific" data-count="horizontal" data-via="twbootstrap" data-related="mdo:Creator of Twitter Bootstrap">Tweet</a>
+          </li>
+          <li class="tweet-btn">
+	    <a href="https://twitter.com/share"
+	    class="twitter-share-button" data-lang="ja"
+	    data-size="large">Tweet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <div class="container">
       <!-- Example row of columns -->
@@ -110,7 +111,7 @@
 	  </div>
 	</div>
       </section>
-      
+
       <section id="event">
 	<div class="page-header">
 	  <h1>予定表</h1>
@@ -124,12 +125,14 @@
 
       <section id="program">
 	<div class="page-header">
-	  <h1>プログラム</h1>
+	  <h1>過去の行事記録</h1>
 	</div>
 	<div class="row">
 	  <div class="span16">
-            <iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Fwww.toastmasters.org.tw%2Fclubs%2Fpacific%2Fbinary%2F201200505Program.doc&embedded=true"
-                    width="800" height="800" style="border: none;"></iframe>
+            <p><a href="./20120707.pdf"> 20120707例会記録 </a></p>
+            <p><a href="./20120721.pdf"> 20120721読書会記録 </a></p>
+            <p><a href="./20120804.pdf"> 20120804例会記録 </a></p>
+            <p><a href="./20120818.pdf"> 20120818読書会記録 </a></p>
 	  </div>
 	</div>
       </section>
@@ -155,7 +158,7 @@
 	  </div>
 	</div>
       </section>
-      
+
       <section id="fb-page">
 	<div class="page-header">
 	  <h1>フェースブック・ページ</h1>
@@ -166,7 +169,7 @@
 	  </div>
 	</div>
       </section>
-      
+
       <section id="contact">
 	<div class="page-header">
 	  <h1>お問い合わせ</h1>
@@ -209,7 +212,7 @@
       </section>
 
       <footer>
-        <p>&copy; Pacific/Heiwa Toastmasters Club 2011</p>
+        <p>&copy; Pacific Toastmasters Club 2013</p>
       </footer>
 
     </div> <!-- /container -->
